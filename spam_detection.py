@@ -10,12 +10,12 @@ from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 import numpy as np
-#with open("C:/Users/erenk/Desktop/spam.csv","rb") as x:
+#with open("C:/Users/username/Desktop/spam.csv","rb") as x:
 #    sonuc = chardet.detect(x.read())
 #print(sonuc)
 
 
-data = pd.read_csv("C:/Users/erenk/Desktop/spam.csv",encoding='Windows-1252')
+data = pd.read_csv("C:/Users/username/Desktop/spam.csv",encoding='Windows-1252')
 veri = data.copy()
 veri = veri.drop(columns=["Unnamed: 2","Unnamed: 3","Unnamed: 4" ],axis=1)
 
