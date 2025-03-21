@@ -50,12 +50,6 @@ class NN():
         plot.legend(["Loss over iterations"])
         plot.show()
 
-np.random.seed(1)
-deneme = NN(8,2,4,8,np.random.randn(8,8),np.random.randn(8,2),1000)
-
-result = deneme.train()
-
-print(result)
 
 
 
