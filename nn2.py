@@ -66,9 +66,5 @@ class NN():
         plot.legend(["Loss over iterations"])
         plot.show()
 
-np.random.seed(34)
-model = NN(8,2,4,8,np.random.randn(8,8),np.random.randn(8,2),1000)
 
-model.train()
-model.err_table()
 
