@@ -13,7 +13,7 @@ def euclidean_distance(x1,x2):
 
 
 
-class KNN:
+class KNN():
     def __init__(self,k=3):
         self.k = k
 
