@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import datasets
 import matplotlib.pyplot as plt
 
-class LinearRegresiion:
+class LinearRegresiion():
 
     def __init__(self,lr=0.01,n_iters=1000):
         self.lr = lr
