@@ -60,25 +60,3 @@ pred = model.predict(X_test)
 acc = accuracy(pred,y_test)
 print(acc)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
